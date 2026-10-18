@@ -1,0 +1,6 @@
+DomainMap
+Copyright 2026 The DomainMap contributors
+
+The viewer bundles elkjs (https://github.com/kieler/elkjs), used unmodified under the Eclipse
+Public License 2.0. The license texts of every bundled dependency ship with each viewer build
+in THIRD-PARTY-NOTICES.txt.

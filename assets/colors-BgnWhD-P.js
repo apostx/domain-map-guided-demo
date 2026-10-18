@@ -1,0 +1,1 @@
+function e(e,t){if(t===void 0)return 0;let n=[...e.domains.keys()].indexOf(t);return n<0?0:n%4+1}export{e as t};
