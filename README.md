@@ -5,10 +5,11 @@ flows, contracts, data and deployment of a system. This repository holds a previ
 viewer, 0.11.0 with two changes on trial. The released viewer is at
 https://apostx.github.io/domain-map-demo/.
 
-- **Sticky levels:** zooming out a little keeps the components; **Keep this level** keeps the
-  level whatever the zoom.
+- **Sticky levels:** zooming out a little keeps the components; the level buttons start with
+  **Auto**, which follows the zoom, and a level chosen is kept whatever the zoom.
 - **One label switch:** **Labels on the lines** shows or hides the labels on every level; a
-  closed label says how many interactions a line stands for, and what the contracts describe.
+  closed label says how many calls, messages and data accesses a line stands for, and whether
+  contracts describe them.
 
 Try them at https://apostx.github.io/domain-map-guided-demo/#/?dataset=demo. You can also open
 a dataset file of your own; the viewer runs entirely in your browser, makes no requests to other
