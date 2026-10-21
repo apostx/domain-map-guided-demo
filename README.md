@@ -2,8 +2,8 @@
 
 DomainMap turns one validated dataset into an offline, read-only explorer for the architecture,
 flows, contracts, data and deployment of a system. This repository holds a preview build of the
-viewer: 0.13.0 with the next changes to selecting on the map. The released viewer is at
-https://apostx.github.io/domain-map-demo/.
+viewer: 0.13.0 with the next changes to selecting on the map, and a flow drawn with only its
+components on trial. The released viewer is at https://apostx.github.io/domain-map-demo/.
 
 - **What is selected stays lit.** Pointing at another component or domain previews its lines
   lightly, without labels; the inspector stays with the selection.
@@ -14,6 +14,10 @@ https://apostx.github.io/domain-map-demo/.
   and the lines that cross its border.
 - **Selecting a domain does not zoom.** A double click on its box, or **Zoom to** in the
   inspector, zooms to it.
+- **On trial: a flow with only its components.** Right-click the route and choose **With only
+  its components**: the domains in the order the flow reaches them, the components of every way,
+  those off the way shown dimmed. For example
+  https://apostx.github.io/domain-map-guided-demo/#/flow/place-order?dataset=marketplace&route.scope=flow
 
 Try them at https://apostx.github.io/domain-map-guided-demo/#/?dataset=marketplace or on the
 smaller https://apostx.github.io/domain-map-guided-demo/#/?dataset=demo. You can also open a
