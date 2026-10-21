@@ -2,11 +2,12 @@
 
 DomainMap turns one validated dataset into an offline, read-only explorer for the architecture,
 flows, contracts, data and deployment of a system. This repository holds the preview site for
-views on trial: the viewer after 0.16.0, with the sections counted in the tree of pages, and an
-inventory page on trial. The released viewer is at https://apostx.github.io/domain-map-demo/.
+views on trial: the released 0.17.0, with an inventory page on trial that also holds what the
+coverage page showed. The released viewer is at https://apostx.github.io/domain-map-demo/.
 
-- **Inventory.** Every component in one table: its domain, kind, technology, coverage,
-  lifecycle, where it runs, its protocols and its contracts. The filters of the top bar narrow
+- **Inventory.** Every component in one table: its domain, kind, technology, coverage and what
+  it rests on, lifecycle, where it runs, its protocols and its contracts; above it how many are
+  covered, below it the sources. The filters of the top bar narrow
   it and take it to the map; a search and the lifecycle and contract filters narrow it here;
   a column's header sorts by it. Try
   https://apostx.github.io/domain-map-guided-demo/#/inventory?dataset=marketplace
