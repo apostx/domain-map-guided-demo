@@ -2,17 +2,22 @@
 
 DomainMap turns one validated dataset into an offline, read-only explorer for the architecture,
 flows, contracts, data and deployment of a system. This repository holds a preview build of the
-viewer, 0.11.0 with two changes on trial. The released viewer is at
+viewer: 0.13.0 with the next changes to selecting on the map. The released viewer is at
 https://apostx.github.io/domain-map-demo/.
 
-- **Sticky levels:** zooming out a little keeps the components; the level buttons start with
-  **Auto**, which follows the zoom, and a level chosen is kept whatever the zoom.
-- **One label switch:** **Labels on the lines** shows or hides the labels on every level; a
-  closed label says how many calls, messages and data accesses a line stands for, and whether
-  contracts describe them.
+- **What is selected stays lit.** Pointing at another component or domain previews its lines
+  lightly, without labels; the inspector stays with the selection.
+- **Clearing.** A click on an empty part of the map, or Escape, clears the selection; moving the
+  map does not.
+- **Every level shows the selection.** Zoomed out, a selected component is its domain, which
+  names it, and its own lines rolled up into bands; zoomed in, a selected domain lights its cards
+  and the lines that cross its border.
+- **Selecting a domain does not zoom.** A double click on its box, or **Zoom to** in the
+  inspector, zooms to it.
 
-Try them at https://apostx.github.io/domain-map-guided-demo/#/?dataset=demo. You can also open
-a dataset file of your own; the viewer runs entirely in your browser, makes no requests to other
+Try them at https://apostx.github.io/domain-map-guided-demo/#/?dataset=marketplace or on the
+smaller https://apostx.github.io/domain-map-guided-demo/#/?dataset=demo. You can also open a
+dataset file of your own; the viewer runs entirely in your browser, makes no requests to other
 sites, and the files you open are never uploaded.
 
 DomainMap is licensed under the Apache License 2.0 (see [LICENSE](LICENSE) and [NOTICE](NOTICE));
