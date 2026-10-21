@@ -1,13 +1,9 @@
 # DomainMap preview
 
 DomainMap turns one validated dataset into an offline, read-only explorer for the architecture,
-flows, contracts, data and deployment of a system. This repository holds a preview build of the
-viewer: 0.14.0 with hidden domains on trial. The released viewer is at
-https://apostx.github.io/domain-map-demo/.
-
-- **Hidden domains.** **Domains 13/13** on the map opens a list to tick; a domain's right-click
-  menu offers Hide, Show only it and its neighbours, and Focus. Hidden domains are left out of
-  every page until **Show all** beside the perspectives.
+flows, contracts, data and deployment of a system. This repository holds the preview site for
+views on trial; at the moment it is the released viewer, 0.16.0, with nothing on trial. The
+released viewer is at https://apostx.github.io/domain-map-demo/.
 
 Try it at https://apostx.github.io/domain-map-guided-demo/#/?dataset=marketplace or on the
 smaller https://apostx.github.io/domain-map-guided-demo/#/?dataset=demo. You can also open a
