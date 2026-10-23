@@ -2,8 +2,10 @@
 
 DomainMap turns one validated dataset into an offline, read-only explorer for the architecture,
 flows, contracts, data and deployment of a system. This repository holds the preview site for
-views on trial; at the moment it is the released viewer, 0.20.0, with nothing on trial. The
-released viewer is at https://apostx.github.io/domain-map-demo/.
+views on trial; at the moment it is the released viewer, 0.20.0, with a sample on trial: a tag
+in the corner of each map card says whether the component runs in the cloud or in the data
+center (`map.place=text` says it in the card's line of facts instead). The released viewer is at
+https://apostx.github.io/domain-map-demo/.
 
 Try it at https://apostx.github.io/domain-map-guided-demo/#/?dataset=marketplace or on the
 smaller https://apostx.github.io/domain-map-guided-demo/#/?dataset=demo. You can also open a
