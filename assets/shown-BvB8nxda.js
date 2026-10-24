@@ -1,0 +1,1 @@
+import{nt as e}from"./index-D7DeVWpt.js";function t(t,n,r){if(r===void 0||!r.includes(`.`))return r;let i=e(t,n,r);return i&&i.flow===n?r:r.slice(0,r.indexOf(`.`))}export{t};
